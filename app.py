@@ -77,5 +77,5 @@ if interval_mins:
 if __name__ == '__main__':
     import os
     LISTEN_HOST = os.getenv('LISTEN_HOST', '0.0.0.0')
-    LISTEN_PORT = int(os.getenv('LISTEN_PORT', '5000'))
+    LISTEN_PORT = int(os.getenv('LISTEN_PORT', '8080'))
     app.run(LISTEN_HOST, LISTEN_PORT)
